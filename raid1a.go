@@ -3,7 +3,7 @@ package raid1a
 import "github.com/01-edu/z01"
 
 func Raid1a(x, y int) {
-	if x >= 0 && y >= 0 {
+	if x > 0 && y > 0 {
 		for i := 1; i <= x; i++ {
 			if i == 1 || i == x {
 				z01.PrintRune('o')
@@ -32,7 +32,5 @@ func Raid1a(x, y int) {
 			}
 			z01.PrintRune(10)
 		}
-	} else {
-		z01.PrintRune(0)
 	}
 }
