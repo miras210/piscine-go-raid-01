@@ -1,8 +1,8 @@
-package main
+package raid1a
 
 import "github.com/01-edu/z01"
 
-func Raid1a(x,y int) {
+func Raid1a(x, y int) {
 	for i := 1; i <= x; i++ {
 		if i == 1 || i == x {
 			z01.PrintRune('o')
@@ -32,8 +32,4 @@ func Raid1a(x,y int) {
 		z01.PrintRune(10)
 	}
 	
-}
-
-func main() {
-	Raid1a(1,5)
 }
