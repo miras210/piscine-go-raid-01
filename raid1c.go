@@ -1,4 +1,4 @@
-package main
+package raid1c
 
 import "github.com/01-edu/z01"
 
