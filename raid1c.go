@@ -34,7 +34,3 @@ func Raid1c(x, y int) {
 		}
 	}
 }
-
-func main() {
-	Raid1c(1, 5)
-}
